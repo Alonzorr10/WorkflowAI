@@ -27,6 +27,7 @@ class GenerateSchedule(Component):
     def execute(self, ctx):
         if not self.data.value:
             print("No data available!")
+            print("hello")
             return
         
         user_data = self.data.value[0]  # Assume single-user input
